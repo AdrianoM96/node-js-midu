@@ -1,0 +1,24 @@
+nodemon -D
+picococolors
+express -E
+standard
+y colocar en package json 
+"eslintConfig": {
+    "extends": "standard"
+  }
+y en la configuracion de JSON
+  "[javascript]": { 
+        "editor.formatOnSave": true 
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+    //"editor.formatOnSave": true
+
+y en el package json tambien poner
+ "scripts": {
+    "dev:1": "nodemon 1.http.js",
+    "dev:2": "nodemon 2.routing.js",
+    "dev:3": "node --watch 3.express.js"
+  },
+
