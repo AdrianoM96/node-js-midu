@@ -22,3 +22,8 @@ y en el package json tambien poner
     "dev:3": "node --watch 3.express.js"
   },
 
+EN LA CLASE 3
+const cors = require('cors')
+ npm i cors -E
+
+app.use(cors())
