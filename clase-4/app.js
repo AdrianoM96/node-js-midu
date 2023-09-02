@@ -8,7 +8,7 @@ import { corsMiddleware } from './middlewares/cors.js'
 // como leer un json en ESModules
 // import fs from 'node:fs'
 // const movies = JSON.parse(fs.readFileSync('./movies.json', 'utf-8'))
-
+// a
 // como leer un json en ESModules recomandado por ahora
 
 const app = express()
